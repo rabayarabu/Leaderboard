@@ -26,11 +26,12 @@ body {
 .details {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 2em;
 }
 
 .recentscore {
   display: flex;
-  gap: 1em;
+  justify-content: space-between;
   margin-block: 1em;
 }
 
@@ -52,14 +53,11 @@ input[type="text"] {
 }
 
 #btnaddscore {
-  width: 25%;
-  display: block;
-  float: right;
+  margin-left: 15em;
 }
 
 #scorelist {
   border: 1px solid green;
-  width: 82%;
   padding: 1em 2em;
   gap: 2em;
 }
