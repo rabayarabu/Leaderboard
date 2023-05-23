@@ -1,3 +1,65 @@
-p {
-  color: brown;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 1em;
+}
+
+.container {
+  max-width: 50%;
+  border: 2px solid green;
+  margin: 1em auto;
+  padding: 3em;
+}
+
+.title {
+  margin-bottom: 2em;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.recentscore {
+  display: flex;
+  gap: 1em;
+  margin-block: 1em;
+}
+
+.addscore {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+button,
+input[type="text"] {
+  padding: 0.5em 1em;
+}
+
+#btnaddscore {
+  width: 25%;
+  display: block;
+  float: right;
+}
+
+#scorelist {
+  border: 1px solid green;
+  width: 82%;
+  padding: 1em 2em;
+  gap: 2em;
 }
