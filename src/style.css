@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  max-width: 50%;
+  width: 700px;
   border: 2px solid green;
   margin: 1em auto;
   padding: 3em;
