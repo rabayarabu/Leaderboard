@@ -92,12 +92,17 @@ Install this project with:
 
 
 ```sh
-  Use code editor(e.g VScode) and clone the repo.
+  install webpack npm
 ```
 
 ### Usage
 
-To run the project, open the html file
+To run the project, 
+
+```sh
+  npm run build
+  npm run start
+```
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -121,7 +126,7 @@ To run the project, open the html file
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[use medium-fidelity wireframes to create a UI]**
+- [ ] **[Implement new frameworks]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
