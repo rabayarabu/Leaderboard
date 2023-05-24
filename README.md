@@ -73,12 +73,12 @@ In order to run this project you need:
 
 
 ```sh
- HTML & CSS supportive browser
+ Browser
 ```
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your local machine:
 
 
 ```sh
