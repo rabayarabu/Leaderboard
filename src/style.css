@@ -69,11 +69,11 @@ button:hover {
   padding: 0.5em;
 }
 
-.score {
+li.score {
   margin: 0.5em;
   padding: 0.5em;
 }
 
-.score:nth-child(even) {
+li.score:nth-child(even) {
   background-color: rgb(169, 237, 169);
 }
